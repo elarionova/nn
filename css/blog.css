@@ -1,0 +1,114 @@
+div.blog_inner
+{
+	width:100%;
+	display:block;
+
+}
+
+div.left_block
+{
+	width:15%;
+	vertical-align: top;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	word-wrap: break-word;
+	float:left;
+	/*position:fixed;*/
+}
+
+
+div.right_block
+{
+	width:85%;
+	
+	display:inline-block;
+	margin:0;
+	padding:0;
+	vertical-align: top;
+}
+
+ul.date_filter
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #182945;
+	font-size:120%;
+	width:98%;
+}
+
+li:hover
+{
+	cursor: pointer;
+	color: #A1C436;
+}
+
+li.year
+{
+	font-weight: bold;
+}
+
+.month
+{
+	list-style: none;
+	font-size: 90%;
+	text-align: left
+}
+
+li.month:before
+{
+	content: "-";
+}
+
+ul.month
+{
+	border-top: 1px solid #182945;
+	border-bottom: 1px solid #182945;
+	margin: 0;
+	padding: 0 0 0 5%;
+
+
+}
+
+
+div.item_type_filter
+{
+	width:100%;
+	text-align: center;
+	height:35px;
+	padding: 5px 0px;
+}
+
+div.my_item_filter, div.foreign_item_filter, div.disable_item_filter
+{
+	display:inline-block;
+	width:27px;
+	height:27px;
+	border-radius: 5px;
+	cursor:pointer;
+	vertical-align: middle;
+	border:2px solid transparent;
+
+}
+
+div.my_item_filter
+{
+	background-color: #182945;
+}
+
+div.foreign_item_filter
+{
+	background-color: #A1C436;
+}
+
+div.disable_item_filter
+{
+	background-color: #C8C8CF;
+}
+
+div.item_filter_active, div.my_item_filter:hover, div.foreign_item_filter:hover, div.disable_item_filter:hover
+{
+	border: 2px solid #46A5E5;
+}

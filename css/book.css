@@ -1,0 +1,102 @@
+
+/*input[name="user_name"]::-webkit-input-placeholder 
+{
+    font-size: 100%;
+    color: #182945;
+    font-weight: bold; 
+} 
+input[name="user_name"]::-moz-placeholder 
+{
+    font-size: 100%;
+    color: #182945;
+    font-weight: bold;
+}*/
+
+div.user_name
+{
+	display:block;
+	width:98%;
+	text-align: center;
+	font-size: 120%;
+	word-wrap: break-word;
+	padding:1%;
+}
+div.book
+{
+	background-color: #FFFFFF;
+	padding:75px 3px;
+	border-left: 15px solid #46A5E5;
+	box-shadow: 0px 0px 10px 1px #909090;
+	cursor:pointer;
+}
+div.foreign_book
+{
+    border-left: 15px solid #a1c436;
+}
+div.book:hover
+{
+	box-shadow: 0px 0px 10px 1px #86CAF7;
+	
+
+}
+
+textarea.book_title
+{
+	resize:none;
+	width:96%;
+	text-align: center;
+	overflow:hidden;
+	font-family: Helvetica, sans-serif;
+	font-size: 100%;
+	color: #182945;
+	font-weight: bold;
+	height: 80px;
+}
+textarea.foreign_book
+{
+	cursor: pointer;
+}
+.book_control
+{
+	margin-top:-75px;
+	position:absolute;
+}
+.book_control_cell
+{
+	display:inline-block;
+	width:28px;
+	height:30px;
+	cursor:pointer;
+
+}
+.visible
+{
+	background-image: url("i/ic_eye_grey600_18dp.png");
+}
+
+.invisible
+{
+	background-image: url("i/ic_eye_off_grey600_18dp.png");
+}
+div.book_gallery
+{
+	text-align: justify;
+	width:100%;
+	
+}
+
+.book_gallery:after
+{
+	display:inline-block;
+	width:100%;
+	content:'';
+}
+
+div.book_cell
+{
+	display:inline-block;
+	padding-bottom:3%;
+	vertical-align: top;
+	max-width:218px;
+
+}

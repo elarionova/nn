@@ -1,0 +1,119 @@
+div.header
+{
+	width: 100%;
+	background-color: #182945;
+	box-shadow: 0px 0px 15px 3px #182945;
+	color: #FFFFFF;
+	position: fixed;
+	-webkit-user-select: none;
+	z-index: 1;
+}
+div.menu
+{
+	width:100%;
+	display: block;
+}
+
+div.menu_cell
+{
+	text-align:center;
+	opacity:0.8;
+	display:inline-block;
+	vertical-align: middle;
+	width: calc(70% - 130px);
+	font-size:150%;
+
+}
+
+
+div.menu_cell:first-child, div.menu_cell:last-child
+{
+	width:50px;
+}
+
+.menu_cell_active, div.menu_cell:hover
+{
+	opacity:1;
+	cursor: pointer;
+}
+
+div.menu_cell_search
+{
+	text-align: right;
+	width:30%;	
+}
+input.search
+{
+	background-color: #182945;
+	color:#FFFFFF;
+	width:90%;
+	
+}
+
+div.submenu_reg, div.submenu_cat
+{
+	
+	/*border-top: 1px solid #1D3254;*/
+	width: 100%;
+	position:absolute;
+	opacity:0;
+	z-index: 2;
+	background-color: #182945;
+	left:-9999;
+	font-size: 80%;
+}
+div.submenu_reg
+{
+	text-align: left;
+	padding:1%;
+}
+div.submenu_cat
+{
+	text-align: left;
+	background-color: transparent;
+}
+.submenu_cat_layout
+{
+	width:100%;
+	margin-top: 5px;
+	background-color: #182945;
+}
+div.submenu_reg>a:hover, div.submenu_cat>a:hover
+{
+	color:#FFFFFF;
+}
+.submenu_cat_cell
+{
+	width:100%;
+	border-bottom:1px solid #1D3254;;
+}
+.submenu_cat_cell>div
+{
+	padding: 1% 30%;
+}
+
+.submenu_cat_cell:last-child
+{
+	border:none;
+	box-shadow: 0px 0px 15px 3px #182945;
+}
+.submenu_cat_cell:hover
+{
+	background-color: #1D3254;
+}
+
+.menu_cell:first-child:hover div.submenu_reg
+{
+	opacity:1;
+	left:-5;
+	box-shadow: 0px 0px 15px 3px #182945;
+
+}
+
+.menu_cell_active:hover div.submenu_cat
+{
+	opacity:1;
+	left:0;
+
+}
+

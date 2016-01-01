@@ -1,0 +1,46 @@
+div.footer
+{
+	/*position: absolute;*/
+	display: none;
+	text-align: justify;
+	width:100%;
+	bottom:0;
+	/*padding: 1% 5%;*/
+}
+.footer:after
+{
+	display:inline-block;
+	width:100%;
+	content:'';
+}
+
+.footer>div
+{
+	font-size: 100%;
+	color: #182945;
+	vertical-align: middle;
+	display: inline-block;
+}
+.footer>div:not([class="lang"]):hover
+{
+	color: #A1C436;
+	cursor: pointer;
+}
+
+.lang>span.lang_active:hover
+{
+	cursor:pointer;
+	color: #A1C436;
+}
+
+.lang>span.lang_inactive:hover
+{
+	cursor: default;
+	color: rgba(24,41,69,.3);
+}
+span.lang_inactive
+{
+	color: rgba(24,41,69,.3);
+}
+
+

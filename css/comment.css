@@ -1,0 +1,83 @@
+.comment_block
+{
+	width:100%;
+	display:block;
+    border-radius: 0px 0px 5px 5px;
+	background-color: #e8e8f0;
+
+}
+
+.comment
+{
+	width:100%;
+	display:block;
+}
+.comment_header
+{
+	width:100%;
+    border-top: 1px solid #a1a1a1;
+}
+.comment_user_name
+{
+	display:inline-block;
+	width:42%;
+	padding:1% 2.5%;
+	text-align:left;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.comment_date
+{
+	display:inline-block;
+	width:51%;
+	padding:1% 0.5% 1% 0%;
+	text-align:right;
+	vertical-align: middle;
+}
+.comment_text
+{
+	padding: 1%;
+}
+.comment_footer
+{
+	width:95%;
+	text-align:right;
+	padding: 1% 1%;
+}
+.comment_paging
+{
+	width:100%;
+	text-align: center;
+}
+.page
+{
+	display:inline-block;
+	cursor:pointer;
+	background-color: #a1a1a1;
+	min-width:20px;
+	vertical-align: middle;
+	text-align: center;
+	padding:5px;
+
+}
+.page_active
+{
+	background-color: #A1C436;
+	font-weight:bold;
+}
+.add_comment
+{
+	width:90%;
+	padding:1% 5%;
+}
+
+.add_comment>textarea
+{
+	width:100%;
+}
+
+.add_comment>.button
+{
+	width:50%;
+
+}
