@@ -319,3 +319,21 @@ div.blog_item_footer:after
 {
 	background-image: url("i/ic_repeat_grey600_18dp.png");	
 }
+
+.sort_image
+{
+	display:inline-block;
+	width:30px;
+	height:24px;
+	vertical-align: middle;
+	cursor:pointer;
+}
+.sort_asc
+{
+	background-image: url("i/ic_sort_ascending_grey600_18dp.png");
+}
+
+.sort_desc
+{
+	background-image: url("i/ic_sort_descending_grey600_18dp.png");
+}
