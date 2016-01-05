@@ -1,0 +1,11 @@
+.search_result
+{
+	width:50%;
+}
+
+.for_search
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;	
+}

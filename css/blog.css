@@ -33,8 +33,7 @@ ul.date_filter
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	text-align: center;
-	color: #182945;
+	text-align: left;
 	font-size:120%;
 	width:98%;
 }
@@ -42,7 +41,6 @@ ul.date_filter
 li:hover
 {
 	cursor: pointer;
-	color: #A1C436;
 }
 
 li.year
@@ -56,28 +54,29 @@ li.year
 	font-size: 90%;
 	text-align: left
 }
-
-li.month:before
+.active>a
 {
-	content: "-";
+	color:#182945;
 }
 
 ul.month
 {
-	border-top: 1px solid #182945;
-	border-bottom: 1px solid #182945;
-	margin: 0;
+
+	margin:0;
 	padding: 0 0 0 5%;
 
-
+}
+.year:hover .month
+{
+	display:block;
 }
 
 
 div.item_type_filter
 {
 	width:100%;
-	text-align: center;
-	height:35px;
+	/*text-align: center;
+	height:35px;*/
 	padding: 5px 0px;
 }
 
@@ -108,7 +107,24 @@ div.disable_item_filter
 	background-color: #C8C8CF;
 }
 
-div.item_filter_active, div.my_item_filter:hover, div.foreign_item_filter:hover, div.disable_item_filter:hover
+div.my_item_filter:hover, div.foreign_item_filter:hover, div.disable_item_filter:hover, div.filter_checked
 {
 	border: 2px solid #46A5E5;
+}
+div.filter_checked:hover
+{
+	border:2px solid transparent;
+}
+.filter_label
+{
+	display:inline-block;
+	font-size:100%;
+	width: calc(90% - 27px);
+	vertical-align: middle;
+}
+.filter_option_wrapper
+{
+	display:block;
+	width:100%;
+	padding: 3px 0px;
 }

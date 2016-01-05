@@ -78,6 +78,16 @@ textarea.foreign_book
 {
 	background-image: url("i/ic_eye_off_grey600_18dp.png");
 }
+.view
+{
+	background-image: url("i/ic_account_grey600_18dp.png");
+}
+.view_points
+{
+	height:auto;
+	vertical-align: top;
+	padding-top:7px;
+}
 div.book_gallery
 {
 	text-align: justify;
