@@ -1,7 +1,7 @@
 body
 {
 	background-color: #e8e8f0;
-	min-width: 350px;
+	min-width: 525px;
 	margin:0;
 	padding:0;
 	font-family: Helvetica, sans-serif;
@@ -94,7 +94,7 @@ input[type="checkbox"]:checked + label
 	color: #46A5E5;
 	font-style: italic;
 }
-div.button
+div.button, div.button_active
 {
 	border: 2px solid #46A5E5;
 	padding: 0.5% 1%;
@@ -107,6 +107,11 @@ div.button
 	background-color: #e8e8f0;
 
 }
+div.button_active
+{
+	box-shadow: 0px 0px 10px 1px #86CAF7;
+}
+
 div.button:hover
 {
 	/*color: #86CAF7;
@@ -136,3 +141,4 @@ div.error_message
 	font-size: 100%;
 	width:auto;
 }
+

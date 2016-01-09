@@ -5,6 +5,16 @@ div.blog_inner
 
 }
 
+div.blog_user_name 
+{
+    display: block;
+    width: 98%;
+    text-align: center;
+    font-size: 120%;
+    word-wrap: break-word;
+    padding: 1%;
+}
+
 div.left_block
 {
 	width:15%;
@@ -127,4 +137,23 @@ div.filter_checked:hover
 	display:block;
 	width:100%;
 	padding: 3px 0px;
+}
+
+div.blog_filters>h1
+{
+	display:none;
+}
+
+.blog_switcher
+{
+	width: 90%;
+	margin: 0 5%;
+}
+
+.blog_switcher_cell
+{
+	
+	display:inline-block;
+	vertical-align: middle;
+	width: 49.5%;
 }

@@ -9,3 +9,15 @@
 	white-space: nowrap;
 	text-overflow: ellipsis;	
 }
+
+div.search_gallery
+{
+	text-align: justify;
+	width:100%;
+	
+}
+
+div.search_gallery>.book_cell
+{
+	margin-right:10px;
+}
