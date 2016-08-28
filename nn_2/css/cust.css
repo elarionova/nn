@@ -1,0 +1,52 @@
+body
+{
+	/*background-image: url("img/apple.jpg");*/
+	background-size: 100%;
+	background-position: top;
+	background-size: 100%;
+}
+textarea
+{
+	padding:5px;
+}
+.hint
+{
+	font-size: 12px;
+	font-style: italic;
+	text-align: left;
+}
+
+.green
+{
+	color: green;
+}
+.red
+{
+	color:red;
+}
+.gray
+{
+	color:gray;
+}
+.row
+{
+	margin-top: 10px;
+}
+.tar 
+{
+	text-align: right;
+}
+.tal 
+{
+	text-align: left;
+}
+.full_width
+{
+	width:100%;
+}
+
+.justified
+{	
+	display:inline-block;
+	text-align: justify;
+}

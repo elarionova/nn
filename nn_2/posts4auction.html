@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Посты на аукционе</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/left_menu.css" rel="stylesheet">
+  <link href="css/cust.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/info_block.css" rel="stylesheet">
+  <link href="css/checkbox.css" rel="stylesheet">
+  <link href="afonts/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css" />
+  <link href="css/post.css" rel="stylesheet">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <body>
+  <!--left menu-->
+	<div class="left_menu_bar hidden-sm-down">
+		<div class="Left_menu_bar_button">
+			<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+		</div>
+		<div class="left_menu_personal_info">
+			<p>Войдите или зарегистрируйтесь</p>
+			<p>
+				<input class="left_menu_reg" placeholder="Введите ваш емейл">
+			</p>
+			<div class="hint green">Успех! Теперь проверьте вашу почту. Мы отправили вам письмо.</div>
+			<button type="button" class="btn btn-default">Отправить</button>
+			
+			<!--<p>matthewtff</p>
+			<p>Счет: <span class="scores">100</span><span class="glyphicon glyphicon glyphicon-rub" aria-hidden="true"></span></p>
+			<a href="">Выйти</a>-->
+		</div>
+
+		<div class="list-group">
+		  <a href="#" class="list-group-item">
+		    Главная
+		  </a>
+		  <a href="#" class="list-group-item">О проекте</a>
+		  <a href="#" class="list-group-item">Лента постов</a>
+		  <a href="#" class="list-group-item">Помощь</a>
+		  <a href="#" class="list-group-item">Рейтинг аукциона</a>
+		  <a href="#" class="list-group-item">Мой профиль</a>
+		  <a href="#" class="list-group-item">Мои посты</a>
+		</div>
+	</div><!--left menu-->
+
+	<div class="container">
+   		<div class="row ad_block">
+   			<div class="col-xs-offset-2 col-xs-10 col-sm-offset-1 col-sm-11 col-md-offset-1 col-md-11 col-lg-offset-1 col-lg-11">
+   				Место для вашей рекламы
+   			</div>
+   		</div>
+   	
+   		<div class="row">
+       		<div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+       			<div class="input-group">
+                  <input type="text" class="form-control" aria-label="...">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Найти в... <span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                      <li><a href="#">Моих записях</a></li>
+                      <li><a href="#">Во всех записях</a></li>
+                    </ul>
+                  </div><!-- /btn-group -->
+               </div><!-- /input-group -->
+       		</div>
+       		
+   		</div>
+
+
+
+   		<div class="row">
+   			
+   			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+   				<ul class="nav nav-tabs">
+                  <li role="presentation"><a href="#">Мои посты</a></li>
+                  <li role="presentation" class="active"><a href="#">Посты на аукцион</a></li>
+               </ul>
+	   		</div>
+	   	</div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <ul class="nav nav-pills">
+            <li role="presentation"><a href="#">На главной</a></li>
+            <li role="presentation" class="active"><a href="#">На аукционе</a></li>
+            <li role="presentation"><a href="#">Старые</a></li>
+          </ul>
+        </div>
+      </div>
+
+	   	<div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <!--<h4>22.08.2014</h4> Отображать для таба Старые-->
+              <h4><a href="">Посмотреть рейтинг</a></h4><!--Отображать для таба На аукционе-->
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+               
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+               <div class="info_block">
+                  <div class="my_post_settings">
+                     <div class="dropdown">
+                       <span class="glyphicon glyphicon-option-horizontal dropdown-toggle" id="conf" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></span>
+
+
+                       <ul class="dropdown-menu" aria-labelledby="conf">
+                         <li><a href="#">Редактировать</a></li>
+                         <li><a href="#">Сделать ставку</a></li>
+                         <li><a href="#">Добавить опрос</a></li>
+                         <li><a href="#">Удалить</a></li>
+                         <li role="separator" class="divider"></li>
+                         <li><a href="#">Статистика</a></li><!--Отображать только для постов на главной-->
+                       </ul>
+                     </div>
+                  </div>
+                  <div class="info_block_pic">
+                     <div class="info_block_title post_title"><h4>Популярный пост: Рассказ о Мыше-Малыше и ее друзьях и всех-всех-всех</h4></div>
+                  </div>
+                  <div class="info_block_prev">
+                     <p>Дорогой друг! Я расскажу тебе удивительную историю
+                   про маленького червячка, который жил в яблоке.</p>
+                  </div>
+                  <div class="info_block_read">
+                     <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+                        
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 info_block_read_icon">
+                           <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>123
+                        </div>   
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 info_block_read_icon">
+                           <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>3k
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 info_block_read_icon">
+                           <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>10
+                        </div>
+                     </div>
+                  </div>
+               </div><!--info-block-->
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            </div>			
+   		
+   		</div>
+
+  	</div><!--container-->
+
+
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+ </body>
+</html>
