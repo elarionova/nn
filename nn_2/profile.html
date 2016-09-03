@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Профиль</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/left_menu.css" rel="stylesheet">
+  <link href="css/cust.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/info_block.css" rel="stylesheet">
+  <link href="css/profile.css" rel="stylesheet">
+  <link href="css/post.css" rel="stylesheet">
+  <link href="css/checkbox.css" rel="stylesheet">
+  <link href="css/radio.css" rel="stylesheet">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ <body>
+  <!--left menu-->
+	<div class="left_menu_bar">
+		<div class="left_menu_wrapper">
+			<div class="Left_menu_bar_button">
+				<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+			</div>
+			<div class="left_menu_personal_info">
+				<!--<p>Войдите или зарегистрируйтесь</p>
+				<p>
+					<input class="left_menu_reg" placeholder="Введите ваш емейл">
+				</p>
+				<div class="hint green">Успех! Теперь проверьте вашу почту. Мы отправили вам письмо.</div>
+				<button type="button" class="btn btn-default">Отправить</button>-->
+				
+				<p>matthewtff</p>
+				<p>Счет: <span class="scores">100</span><span class="glyphicon glyphicon glyphicon-rub" aria-hidden="true"></span></p>
+				<a href="">Выйти</a>
+			</div>
+
+			<div class="list-group">
+			  <a href="#" class="list-group-item">
+			    Главная
+			  </a>
+			  <a href="#" class="list-group-item">О проекте</a>
+			  <a href="#" class="list-group-item">Лента постов</a>
+			  <a href="#" class="list-group-item">Помощь</a>
+			  <a href="#" class="list-group-item">Рейтинг аукциона</a>
+			  <a href="#" class="list-group-item">Мой профиль</a>
+			  <a href="#" class="list-group-item">Мои посты</a>
+			</div>
+		</div>
+	</div><!--left menu-->
+
+	<div class="container">
+   	<div class="row ad_block">
+   		<div class="col-xs-offset-2 col-xs-10 col-sm-offset-1 col-sm-11 col-md-offset-1 col-md-11 col-lg-offset-1 col-lg-11">
+   			Место для вашей рекламы
+   		</div>
+   	</div>
+   	<h2>Мой профиль</h2>
+      <div clss="row"><!--common_row-->
+         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 personal_block"><!--left_col-->
+      	<div class="row">
+       		<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+               Имя
+      		</div>
+             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+               <div class="dib">
+                  <input placeholder="matthewtff">
+                  <div class="hint green"><span class="glyphicon glyphicon-menu-ok" aria-hidden="true"></span>Ok!</div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+               Email
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+               <div class="dib">
+                 <input readonly="true" value="matthewtff@mail.ru">
+                 <div class="hint green"><span class="glyphicon glyphicon-menu-ok" aria-hidden="true"></span>Ok!</div>
+               </div>
+            </div>
+         </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+               Пол
+            </div>
+             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+               <input type="radio" class="tapebutton" name="gender" id="m"/>
+               <label for="m">Мужской</label>
+               
+               <input type="radio"  class="tapebutton" name="gender" id="f"/>
+               <label for="f">Женский</label>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+               Регион
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+               <div class="dib">
+                  <input placeholder="Введите название города">
+                  <div class="hint green"><span class="glyphicon glyphicon-menu-ok" aria-hidden="true"></span>Ok!</div>
+               </div>
+               <div class="region-tab">
+                  <div class="region-cell">Москва</div>
+                  <div class="region-cell">Выборг</div>
+                  <div class="region-cell">Канельярви</div>
+               </div>         
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+               Подписка
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+               <input type="checkbox" class="checkbox" id="subscribtion" />
+               <label for="subscribtion">Согласен получать письма от NetNote</label>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-2 col-lg-10">
+               <button type="button" class="btn btn-default">Сохранить</button>
+            </div>
+         </div>
+
+
+       </div><!--left_col-->
+       <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 pay_box"><!--center_col-->
+
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h4> Мой счет: <b>1000 руб.</b></h4> 
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div class="hint gray">Вы можете обналичить свой счет только начиная с 10 000 рублей</div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <button type="button" class="btn btn-default btn-lg">Обналичить</button>
+            </div>
+         </div>
+
+
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">               
+               <input placeholder="Введите номер карты">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <a href="">Перевести деньги</a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div class="hint green">Ваш перевод успешно завершен!</div>
+            </div>
+         </div>
+         <hr>
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h4>Осталось места: <b>2 Гб</b></h4>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div class="hint gray">Вы можете докупить 1 Гб за 100 рублей (будут списаны с вашего счета)</div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <button type="button" class="btn btn-default btn-lg">Купить 1 Гб</button>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div class="hint green">Ваш диск пополнился на 1 Гб!</div>
+            </div>
+         </div>
+         <hr>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h4>Заработать на моем аккаунте!</h4> 
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <div class="hint gray">Вы можете разрешить обображать рекламу в вашей ленте постов и получать деньги за показы на ваш электронный счет</div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <input type="checkbox" class="checkbox" id="let_ad">
+               <label for="let_ad">Разрешить рекламу</lable>
+            </div>
+         </div>
+         
+      </div><!--center_col-->
+   </div><!--common row-->
+
+
+  	</div><!--container-->
+
+
+
+  <script src="js/bootstrap.js"></script>
+ </body>
+</html>

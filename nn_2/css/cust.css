@@ -9,6 +9,11 @@ textarea
 {
 	padding:5px;
 }
+.cross
+{
+	cursor: pointer;
+	color: #333;
+}
 .hint
 {
 	font-size: 12px;
@@ -49,4 +54,25 @@ textarea
 {	
 	display:inline-block;
 	text-align: justify;
+}
+.dib
+{
+	width:100%;
+	display: inline-block;
+}
+.dib>*
+{
+	display: inline-block;	
+	vertical-align: middle;
+}
+
+label
+{
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.date_input
+{
+	max-width:80px;
 }
