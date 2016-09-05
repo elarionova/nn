@@ -17,12 +17,12 @@ h1, h2, h3
 {
 	color: #fff;
 }
-a, a:visited
+a.blue, a.blue:visited
 {
 	color: #C9F0F5;
 }
 
-a:hover
+a.blue:hover
 {
 	color: #58DDED;
 	text-decoration: none;
@@ -72,13 +72,25 @@ textarea
 {
 	color: green;
 }
+.light-green
+{
+	color:#69FF8C;
+}
 .red
 {
 	color:red;
 }
+.light-red
+{
+	color:#FFABAB;
+}
 .gray
 {
 	color:gray;
+}
+.dark-gray
+{
+	color:#555;
 }
 .row
 {
