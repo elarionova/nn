@@ -45,7 +45,7 @@ transition: all .2s; /* анимация, чтобы чекбокс перекл
 }
 /* Меняем фон чекбокса, когда он включен. */
 .checkbox:checked + label:before {
-background: #A1C436;
+background-color: rgb(252, 247, 192);
 }
 
 .checkbox:checked + label:after {

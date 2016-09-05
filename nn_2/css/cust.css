@@ -1,9 +1,56 @@
-body
+.back_img
 {
-	/*background-image: url("img/apple.jpg");*/
-	background-size: 100%;
-	background-position: top;
-	background-size: 100%;
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	background-image: url("img/evening.jpg");
+	background-size: 250%;
+	background-position: center;
+	z-index: 0;
+	opacity:0.9.5;
+
+}
+
+h1, h2, h3
+{
+	color: #fff;
+}
+a, a:visited
+{
+	color: #C9F0F5;
+}
+
+a:hover
+{
+	color: #58DDED;
+	text-decoration: none;
+}
+
+.btn-cust
+{
+	background-color: rgba(255,255,255,0.2);
+	border: 1px solid #0A575D;
+	color:#0A575D;
+}
+.btn-cust:hover
+{
+	background-color: #fff;
+	border: 1px solid #31919D;
+	color: #31919D;	
+}
+.btn-cust-out
+{
+	color: #FFF;
+	border: 1px solid #FFF; 
+	background-color: rgba(255,255,255,0.2);
+}
+.btn-cust-out:hover
+{
+	color: #58DDED;
+	border: 1px solid #58DDED;	
+
 }
 textarea
 {
@@ -12,7 +59,7 @@ textarea
 .cross
 {
 	cursor: pointer;
-	color: #333;
+	/*color: #333;*/
 }
 .hint
 {
